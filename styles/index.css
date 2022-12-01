@@ -26,6 +26,9 @@ header {
     justify-content: center;
     align-items: center;
 }
+
+/* NAV-BAR */
+
 header nav {
     display: flex;
     width: 100%;
