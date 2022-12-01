@@ -9,7 +9,8 @@ body {
     font-family:Arial, Helvetica, sans-serif;
     background-color: #202124;
 }
-a {
+a,
+img {
     text-decoration: none;
     cursor: pointer;
 }
@@ -52,6 +53,19 @@ header nav .left-nav a {
     margin-right: 15px;
     color: #bdc1c5;
     font-size: larger;
+}
+nav .right-nav .menu-icon img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 20px;
+    width: 20px;
+}
+nav .right-nav .mrjark-photo img {
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
 header nav .right-nav :hover {
     text-decoration: underline;
