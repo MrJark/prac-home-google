@@ -110,15 +110,18 @@ main .main-input .input-container input {
     color: #ffffff;
     outline: none;
     font-size: 22px;
-    padding: 0px 115px 0px 60px; /*esto era la clave par que el hover se me pusiera en todo el input pero que no estuviera en el principio del container, dos horas para encontrar el error... */
+    padding-left: 12px;
+    /*padding: 0px 115px 0px 60px; /*esto era la clave par que el hover se me pusiera en todo el input pero que no estuviera en el principio del container, dos horas para encontrar el error... */
 
 }
-main .main-input .input-container :hover { /*el efecto del hover se lo colocamos al contenedor, al input-container, no me salia antes porque se lo estaba colocando al input   */
-    background-color: #303134;
-    box-shadow: 1px 1px 2px 1px #1c1c1e;
+main .main-input .input-container:hover { /*el efecto del hover se lo colocamos al contenedor, al input-container, no me salia antes porque se lo estaba colocando al input. OJO AL COLOCAR UN ESPACIO ENTRE LOS :   */
+    /* background-color: #303134; */
+    box-shadow: 1px 1px 6px 1px #1c1c1e;
     border-color: #303134;
-    border: 0px;
+    background: #303134;
+    background-color: #303134;
 }
+
 main .main-input .search-icon {
     background-image: url('https://cdn.pixabay.com/photo/2017/01/13/01/22/magnifying-glass-1976105_1280.png');
     background-repeat: no-repeat;
@@ -126,7 +129,7 @@ main .main-input .search-icon {
     background-size: contain;
     width: 50px;
     height: 50px;
-    margin-left: 8px;
+    margin-left: 15px;
 }
 main .main-input .micro-icon{
     background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png');
@@ -135,7 +138,7 @@ main .main-input .micro-icon{
     background-size: contain;
     width: 30px;
     height: 30px;
-    margin-right: 12px;
+    margin-right: 25px;
     cursor: pointer;
 }
 main .main-input .camera-icon{
@@ -145,7 +148,7 @@ main .main-input .camera-icon{
     background-size: contain;
     width: 55px;
     height: 55px;
-    margin-right: 12px;
+    margin-right: 25px;
     cursor: pointer;
 }
 main .main-buttons {
