@@ -110,8 +110,10 @@ main .main-input .input-container input {
     color: #ffffff;
     outline: none;
     font-size: 22px;
-    padding: 0px 115px 0px 60px; /*esto era la clave par que el hover se me pusiera en todo el input pero que no estuviera en el principio del container
-} */
+    padding: 0px 115px 0px 60px; /*esto era la clave par que el hover se me pusiera en todo el input pero que no estuviera en el principio del container, dos horas para encontrar el error... */
+
+}
+ 
 main .main-input .input-container :hover { /*el efecto del hover se lo colocamos al contenedor, al input-container, no me salia antes porque se lo estaba colocando al input   */
     background-color: #303134;
     box-shadow: 2px 2px 3px 2px #1c1c1e;
