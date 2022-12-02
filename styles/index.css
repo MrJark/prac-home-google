@@ -5,7 +5,7 @@
     margin: 0;
 }
 body {
-    font-size: 18px;
+    font-size: 16px;
     font-family:Arial, Helvetica, sans-serif;
     background-color: #202124;
 }
@@ -84,16 +84,42 @@ main {
     margin-bottom: 60px;
     text-align: center;
 }
-main .main-buttons {
-    width: 530px;
-    margin: 0 auto;
-}
 main .google-logo img {
     width: 360px;
 }
 main .main-input {
     padding: 20px;
+    width: 700px;
+    margin: 0 auto; /*con esto consigo alinear el contenido del al centro ya que lo que hace el auto es repartir el esoacio sobrante en ambos lados del input */
+    margin-bottom: 16px;
 }
-main .main-buttons{
+main .input-container {
+    width: 700px;
+    border-radius: 100px;
+    border: 1px solid #5f6367;
+    display: flex; /*me ayuda a colocar los elementos, los tres, de una forma lineal  */
+    justify-content: center;
+    align-items: center;
+}
+main .main-input .input-container input {
+    width: 620px;
+    height: 65px;
+    border-radius: 100px;
+    background-color: #202124;
+    border: none;
+    color: #ffffff;
+    outline: none;
+    font-size: 22px;
+}
+main .main-input .input-container :hover { /*el efecto del hover se lo colocamos al contenedor, al input-container, no me salia antes porque se lo estaba colocando al input   */
+    background-color: #303134;
+    box-shadow: 0px 2px 6px 0 #1a1a1b;
+    border-color: #252526;
+}
+
+
+main .main-buttons {
+    width: 530px;
+    margin: 0 auto;
     padding: 0px 20px 20px 20px;
 }
