@@ -222,13 +222,49 @@ footer .first-footer {
     display: flex;
     align-items: center;
     height: 60px;
-    padding-left: 30px;
+    padding-left: 25px;
 }
 footer .second-footer {
     /* Lo siguiente será para maquetar el footer con el grid. Esto lo que nos hace es dividir el contenerdor padre en columnas y luego le decimos el número de columnas que queremos con grid-template-colums, que serán 3 en mi caso */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
-    justify-items: center;
+    height: 60px;
 }
-
+footer .second-footer ul {
+    display: flex;
+}
+footer .second-footer .footer-left {
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 30px;
+}
+footer .second-footer .footer-left a {
+    color: #999da1;
+    margin-right: 12px;
+}
+footer .second-footer .footer-left a:hover {
+    text-decoration: underline;
+}
+footer .second-footer .emissions {
+    display: flex;
+    justify-content: center;
+}
+footer .second-footer .emissions a {
+    color: #999da1;
+}
+footer .second-footer .emissions a:hover {
+    text-decoration: underline;
+}
+footer .second-footer .footer-right {
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+footer .second-footer .footer-right a {
+    color: #999da1;
+    margin-left: 12px;
+}
+footer .second-footer .footer-right a:hover {
+    text-decoration: underline;
+}
