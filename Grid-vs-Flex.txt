@@ -1,0 +1,5 @@
+
+Los espacios en las etiquetas no son visibles, pero posicionan el contenido en un lugar determinado. Solo podemos ver qué tanto ocupan cuando abrimos las DevTools de nuestro navegador. Entonces, ¿qué hace cada una?
+
+Grid: genera una cuadrícula que nos ayuda a dividir las cajas que son etiquetas contenedoras.
+Flex: nos ayuda a posicionar el contenido de las etiquetas contenedoras.
