@@ -207,3 +207,28 @@ main .second-p .last {
 
 /*  FOOTER  */
 
+footer {
+    width: 100%; 
+    height: auto;
+    font-size: 20px;
+    background-color: #171717;
+    color: #999da1;
+    /* lo de a continuación es para que ocupe toda la pagina y no se quede arriba y esté al final y se amolde*/
+    position: absolute;
+    bottom: 0;
+}
+footer .first-footer {
+    border-bottom: solid 1px #3c4043;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding-left: 30px;
+}
+footer .second-footer {
+    /* Lo siguiente será para maquetar el footer con el grid. Esto lo que nos hace es dividir el contenerdor padre en columnas y luego le decimos el número de columnas que queremos con grid-template-colums, que serán 3 en mi caso */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
